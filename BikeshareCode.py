@@ -218,7 +218,7 @@ def main():
 
         restart = input('\nWould you like to restart?(yes, no) \n')
         if restart.lower() != 'yes':
-            print("ADIOS!...")
+            print("HAVE A GOOD DAY. ADIOS!...")
             break
 
 
