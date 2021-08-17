@@ -43,10 +43,10 @@ def get_filters ():
     #get user input for day of the week to filter by
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     if filter == 'day' or filter == 'both':
-        day = input('Choose the day you want to filter by:(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday) ').lower()
+        day = input('Which day - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday or Saturday? ').lower()
         while day not in days:
             print("Invalid input!!?")
-            day = input('Choose the day you want to filter by:(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday) ').lower()
+            day = input('Which day - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday or Saturday? ').lower()
     else:
         day = 'all'
 
