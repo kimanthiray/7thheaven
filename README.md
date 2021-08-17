@@ -31,3 +31,29 @@ The code developed takes in raw input to create an interactive experience in the
 
 The answers to the questions above will determine the city and timeframe on which you'll do data analysis. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit.
 
+#Statistics Computed
+Your code will provide the following output:
+
+###1 Popular times of travel (i.e., occurs most often in the start time)
+
+ - Most common month
+ - Most common day of the week
+ - Popular hour of the day
+###2 Popular stations and trip
+
+ - Most common start station
+ - Most common end station
+ - Most common trip combination of start station and end station
+
+###3 Trip duration statistics
+
+ - Total travel time
+ - Average travel time
+###4 User statistics
+
+ - Counts of user types
+ - Counts of gender
+ - Earliest, most recent, most common year of birth
+
+###5 Raw data
+ - Print raw data in rows of 5
