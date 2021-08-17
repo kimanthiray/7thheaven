@@ -192,9 +192,9 @@ def user_stats(df):
     print("_"*50)
 
 def display_raw_data(df):
-    """Ask the user if he wants to display the row data and print 5 rows at a time"""
+    """Ask if the user wants to display the raw data and print 5 rows at a time"""
 
-    raw = input('\nWould you like to display raw data? \n')
+    raw = input('\nWould you like to display raw data 5 rows at a time? \n')
     if raw.lower() == 'yes':
         count = 0
         while True:
