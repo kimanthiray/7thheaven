@@ -57,3 +57,7 @@ Your code will provide the following output:
 
 ###5 Raw data
  - Print raw data in rows of 5
+
+###Duration
+Each output computed should have a duration taken by the terminal to compute the code.
+
