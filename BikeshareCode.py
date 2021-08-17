@@ -50,6 +50,7 @@ def get_filters ():
     else:
         day = 'all'
 
+    print("\n")
     print('><' * 50)
 
     return city, month, day
